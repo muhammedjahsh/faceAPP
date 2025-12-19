@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block bodyblock %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+   
+    h1, h2 {
+        color: #007BFF;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin: 15px 0;
+        padding: 10px;
+        background-color: #f9f9f9;
+        border-left: 5px solid #007BFF;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    h1 {
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+</style>
+<div class="container">
+    <br>      
+    <h1>Bringing AI to Your Fingertips</h1>
+    <h2>Features</h2>
+    <ul>
+        <li>1) Gender Classification</li>
+        <li>2) Age Classification (getting age range)</li>
+        <li>3) Getting name from Google</li>
+        <li>4) Read a sentence by a celebrity</li>
+        <li>5) Emotion Detection</li>
+        <li>6) Person Similarity Matching – Compare faces for similarity (useful for recommendations)</li>
+        <li>7) Face Swap – Swap faces in real-time using Deep Learning (e.g., StyleGAN, FaceSwap libraries)</li>
+        <li>8) Skin Condition Analysis – Detect acne, wrinkles, or skin tone for beauty/dermatology recommendations</li>
+        <li>9) Convert a user’s face into a cartoon, anime, or 3D avatar using StyleGAN or Stable Diffusion</li>
+        <li>10) Detect silent speech using lip movement recognition (could be useful for accessibility features)</li>
+        <li>11) Integrate an AI chatbot that adapts responses based on detected emotions</li>
+        <li>12) Auto-play music based on detected facial expressions (happy → upbeat music, sad → calm music)</li>
+        <li>13) Convert 2D images into high-fidelity 3D face models using AI-powered reconstruction</li>
+        <li>14) Allow users to find their historical doppelgänger from famous paintings, sculptures, or ancestry databases</li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2025 MJV AI-Powered. All rights reserved.</p>
+</footer>
+
+
+
+{% endblock %}
